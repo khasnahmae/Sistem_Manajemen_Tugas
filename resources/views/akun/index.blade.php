@@ -17,7 +17,7 @@
                 <tr>
                     <th width="50px">No</th>
                     <th width="250px">Nama</th>
-                    <th width="150px">Username</th>
+                    {{-- <th width="150px">Username</th> --}}
                     <th width="250px">Email</th>
                     <th width="150px">Role</th>
                     <th>Aksi</th>
@@ -29,7 +29,7 @@
                     <tr>
                         <td>{{ $akun->firstItem() + $user }}</td>
                         <td>{{ $row->name }}</td>
-                        <td>{{ $row->username }}</td>
+                        {{-- <td>{{ $row->username }}</td> --}}
                         <td>{{ $row->email }}</td>
                         <td>{{ $row->role }}</td>
                         <td>

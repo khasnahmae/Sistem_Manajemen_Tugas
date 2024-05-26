@@ -23,10 +23,10 @@
                     @endforeach
                 </select>
             </div>
-            <div class="form-group">
+            {{-- <div class="form-group">
                 <label for="prodi">Prodi</label>
                 <input type="text" name="prodi" class="form-control" value="{{ $mapel->prodi }}" required>
-            </div>
+            </div> --}}
             <div class="form-group">
                 <label for="nama_matkul">Nama Matkul</label>
                 <input type="text" name="nama_matkul" class="form-control" value="{{ $mapel->nama_matkul }}" required>

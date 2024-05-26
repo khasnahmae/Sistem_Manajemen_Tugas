@@ -18,9 +18,9 @@
                         <th width="50px">No</th>
                         <th width="125px">NIM</th>
                         <th width="250px">Nama</th>
-                        <th width="100px">Alamat</th>
+                        {{-- <th width="100px">Alamat</th> --}}
                         <th width="125px">Kelas</th>
-                        <th width="250px">Prodi</th>
+                        {{-- <th width="250px">Prodi</th> --}}
                         <th>Aksi</th>
                     </tr>
                 </thead>
@@ -30,9 +30,9 @@
                             <td>{{ $mahasiswas->firstItem() + $mahasiswa }}</td>
                             <td>{{ $row->nim }}</td>
                             <td>{{ $row->nama }}</td>
-                            <td>{{ $row->alamat }}</td>
+                            {{-- <td>{{ $row->alamat }}</td> --}}
                             <td>{{ $row->kelas->kelas }}</td>
-                            <td>{{ $row->kelas->prodi }}</td>
+                            {{-- <td>{{ $row->kelas->prodi }}</td> --}}
                             <td>
                                 <a href="{{ route('mahasiswa.detail', $row->id) }}" class="btn btn-info btn-sm">Detail</a>
                                 <a href="{{ route('mahasiswa.edit', $row->id) }}" class="btn btn-sm btn-primary">Edit</a>

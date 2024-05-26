@@ -13,6 +13,7 @@
                     <h4>{{ $dosen->nama }}</h4>
                     <p class="fw-bold">NIP: {{ $dosen->nip }}</p>
                 </div>
+                <p class="card-text">Kode Nama: {{ $dosen->codename }}</p>
                 <p class="card-text">Tanggal Lahir: {{ $dosen->tgl_lahir }}</p>
                 <p class="card-text">Alamat: {{ $dosen->alamat }}</p>
                 <p class="card-text">Kontak: {{ $dosen->kontak }}</p>

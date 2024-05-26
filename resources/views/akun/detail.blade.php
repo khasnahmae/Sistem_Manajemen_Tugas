@@ -11,8 +11,9 @@
             <div class="col-auto">
                 <div class="row">
                     <h4>{{ $akun->name }}</h4>
-                    <p class="fw-bold">{{ $akun->username }}</p>
+                    {{-- <p class="fw-bold">{{ $akun->username }}</p> --}}
                 </div>
+                <p class="card-text">Username: {{ $akun->username }}</p>
                 <p class="card-text">Email: {{ $akun->email }}</p>
                 <p class="card-text">Role: {{ $akun->role }}</p>
             </div>
